@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,13 +9,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Tipografía y fondo */
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
   line-height: 1.5;
   background-color: #f5f5f7;
   color: #111827;
 }
 
+/* CABECERA */
 .site-header {
   background-color: #111827;
   color: #f9fafb;
@@ -22,6 +26,7 @@ body {
   border-bottom: 2px solid #1f2937;
 }
 
+/* Logo y texto */
 .logo {
   display: flex;
   align-items: center;
@@ -78,12 +83,14 @@ body {
   color: #111827;
 }
 
+/* CONTENIDO PRINCIPAL HOME */
 .home-main {
   max-width: 1100px;
   margin: 2rem auto 3rem;
   padding: 0 1rem;
 }
 
+/* Hero */
 .hero {
   background-color: #ffffff;
   padding: 1.8rem 1.6rem;
@@ -102,8 +109,10 @@ body {
 .hero p {
   font-size: 0.98rem;
   color: #4b5563;
+  margin-bottom: 0.5rem;
 }
 
+/* Selector por curso */
 .year-selector {
   margin-bottom: 2.2rem;
 }
@@ -155,6 +164,7 @@ body {
   border-color: #1d4ed8;
 }
 
+/* Bloques de información */
 .info-blocks {
   margin-bottom: 2.5rem;
 }
@@ -189,6 +199,7 @@ body {
   color: #4b5563;
 }
 
+/* Estilos reutilizables para otras páginas (degree, fii, etc.) */
 .page-main {
   max-width: 1100px;
   margin: 2rem auto 3rem;
@@ -205,6 +216,7 @@ body {
   color: #4b5563;
 }
 
+/* Tablas para degree.html */
 .table-wrapper {
   margin-top: 1.5rem;
   overflow-x: auto;
@@ -240,6 +252,7 @@ body {
   background-color: #eef2ff;
 }
 
+/* Pills de estado para las asignaturas */
 .estado-pill {
   display: inline-flex;
   align-items: center;
@@ -269,6 +282,7 @@ body {
   color: #b91c1c;
 }
 
+/* FOOTER */
 .site-footer {
   text-align: center;
   font-size: 0.8rem;
