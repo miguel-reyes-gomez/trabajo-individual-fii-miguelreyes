@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,16 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Tipografía y fondo */
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
   line-height: 1.5;
   background-color: #f5f5f7;
   color: #111827;
 }
 
-/* CABECERA */
 .site-header {
   background-color: #111827;
   color: #f9fafb;
@@ -26,7 +21,6 @@ body {
   border-bottom: 2px solid #1f2937;
 }
 
-/* Logo y texto */
 .logo {
   display: flex;
   align-items: center;
@@ -49,7 +43,6 @@ body {
   opacity: 0.85;
 }
 
-/* NAV */
 .main-nav {
   margin-top: 0.75rem;
 }
@@ -68,14 +61,11 @@ body {
   border-radius: 999px;
   border: 1px solid transparent;
   color: #e5e7eb;
-  transition: background-color 0.15s ease, border-color 0.15s ease,
-    color 0.15s ease, transform 0.1s ease;
 }
 
 .main-nav a:hover {
   border-color: #e5e7eb;
   background-color: #0b1220;
-  transform: translateY(-1px);
 }
 
 .main-nav a.active {
@@ -83,19 +73,16 @@ body {
   color: #111827;
 }
 
-/* CONTENIDO PRINCIPAL HOME */
 .home-main {
   max-width: 1100px;
   margin: 2rem auto 3rem;
   padding: 0 1rem;
 }
 
-/* Hero */
 .hero {
   background-color: #ffffff;
   padding: 1.8rem 1.6rem;
   border-radius: 1.1rem;
-  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
   border: 1px solid #e5e7eb;
   margin-bottom: 2rem;
 }
@@ -112,7 +99,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Selector por curso */
 .year-selector {
   margin-bottom: 2.2rem;
 }
@@ -147,14 +133,9 @@ body {
   font-size: 1rem;
   color: #111827;
   background-color: #ffffff;
-  box-shadow: 0 6px 12px rgba(15, 23, 42, 0.08);
-  transition: transform 0.1s ease, box-shadow 0.1s ease,
-    background-color 0.15s ease, border-color 0.15s ease;
 }
 
 .year-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.15);
   border-color: #2563eb;
 }
 
@@ -164,7 +145,6 @@ body {
   border-color: #1d4ed8;
 }
 
-/* Bloques de información */
 .info-blocks {
   margin-bottom: 2.5rem;
 }
@@ -185,7 +165,6 @@ body {
   border-radius: 1rem;
   padding: 1.2rem 1.1rem;
   border: 1px solid #e5e7eb;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
 }
 
 .info-card h4 {
@@ -199,7 +178,6 @@ body {
   color: #4b5563;
 }
 
-/* Estilos reutilizables para otras páginas (degree, fii, etc.) */
 .page-main {
   max-width: 1100px;
   margin: 2rem auto 3rem;
@@ -216,7 +194,6 @@ body {
   color: #4b5563;
 }
 
-/* Tablas para degree.html */
 .table-wrapper {
   margin-top: 1.5rem;
   overflow-x: auto;
@@ -229,7 +206,6 @@ body {
   background-color: #ffffff;
   border-radius: 0.9rem;
   overflow: hidden;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
 }
 
 .table thead {
@@ -244,7 +220,7 @@ body {
   text-align: left;
 }
 
-.table tbody tr:nth-child(even) {
+.table tbody {
   background-color: #f9fafb;
 }
 
@@ -252,7 +228,6 @@ body {
   background-color: #eef2ff;
 }
 
-/* Pills de estado para las asignaturas */
 .estado-pill {
   display: inline-flex;
   align-items: center;
@@ -282,7 +257,6 @@ body {
   color: #b91c1c;
 }
 
-/* FOOTER */
 .site-footer {
   text-align: center;
   font-size: 0.8rem;
