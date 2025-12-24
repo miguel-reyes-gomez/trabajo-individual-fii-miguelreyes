@@ -4,39 +4,44 @@
     <meta charset="UTF-8" />
     <title>Sobre mí – Miguel Reyes Gómez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="logo">
-        <div class="logo-text">
+    <header class="cabecera-sitio">
+      <div class="bloque-logo">
+        <img
+          src="img/ufv_logo.png"
+          alt="Logo UFV"
+          class="logo-ufv"
+        />
+        <div class="texto-logo">
           <h1>Sobre mí</h1>
-          <p class="subtitle">
+          <p class="subtitulo-logo">
             Miguel Reyes Gómez – Estudiante de Ingeniería Informática
           </p>
         </div>
       </div>
 
-      <nav class="main-nav">
-        <ul>
+      <nav class="navegacion-principal">
+        <ul class="lista-navegacion">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="degree.html">Grado</a></li>
           <li><a href="fii.html">FII</a></li>
           <li><a href="topic.html">Herramientas</a></li>
-          <li><a href="about.html" class="active">Sobre mí</a></li>
+          <li><a href="about.html" class="enlace-activo">Sobre mí</a></li>
           <li><a href="net.html">Red</a></li>
           <li><a href="contact.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="page-main">
-      <!-- Presentación personal con foto -->
+    <main class="contenido-pagina">
       <section>
         <h2>Quién soy</h2>
-        <div class="info-grid">
-          <article class="info-card">
-            <h4>Presentación</h4>
+
+        <div class="rejilla-info">
+          <article class="tarjeta-info">
+            <h3>Presentación</h3> <br>
             <p>
               Me llamo <strong>Miguel Reyes Gómez</strong> y actualmente estudio
               el Grado en Ingeniería Informática. Antes de llegar a la
@@ -50,18 +55,21 @@
               externos, sin centrarme solo en un lenguaje o tecnología concreta.
             </p>
           </article>
-
-            <img src="img/mifoto.jpg" alt="Foto de Miguel Reyes Gómez" class="imagen-perfil" />
+            <img
+              src="img/mifoto.jpg"
+              alt="Foto de Miguel Reyes Gómez"
+              class="imagen-perfil"
+            />
         </div>
       </section>
 
-      <!-- CV sencillo -->
       <section>
         <h2>Currículum resumido</h2>
+
         <h3>Formación</h3>
         <ul>
           <li>
-            Grado en Ingeniería Informática – Universidad Francisco de Vitoria
+            Grado en Ingeniería Informática - Universidad Francisco de Vitoria
             (en curso).
           </li>
           <li>
@@ -77,7 +85,8 @@
             tiempo.
           </li>
           <li>
-            Cuatro meses de experiencia en Grupo Conforsa, como desarrollador de aplicaciones.
+            Cuatro meses de experiencia en Grupo Conforsa, conociendo de cerca el
+            entorno profesional y la organización del trabajo en empresa.
           </li>
         </ul>
 
@@ -102,15 +111,13 @@
         <h3>Redes y enlaces</h3>
         <ul>
           <li>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/miguel-reyes-gomez" target="_blank">
-              linkedin.com/in/miguel-reyes-gomez
+            <a href="https://www.linkedin.com/in/miguel-reyes-gómez-66a170293/" target="_blank">
+              LinkedIn
             </a>
           </li>
           <li>
-            GitHub:
             <a href="https://github.com/miguel-reyes-gomez" target="_blank">
-              github.com/miguel-reyes-gomez
+              GitHub
             </a>
           </li>
           <li>
@@ -121,10 +128,9 @@
       </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="pie-sitio">
       <p>
-        &copy; 2025 – Miguel Reyes Gómez. Página personal dentro del grado en
-        Ingeniería Informática.
+        &copy; 2025 - Grado en Ingeniería Informática - Miguel Reyes Gómez
       </p>
     </footer>
   </body>

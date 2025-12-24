@@ -1,107 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contacto - Guía del Grado</title>
-  <link rel="stylesheet" href="css/contact.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="logo">
-      <img
-        src="ufv_logo.png"
-        alt="Logo Universidad Francisco de Vitoria"
-        class="logo-ufv"
-      />
-      <div class="logo-text">
-        <h1>Guía del Grado</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="cabecera-sitio">
+      <div class="bloque-logo">
+        <img
+          src="img/ufv_logo.png"
+          alt="Logo UFV"
+          class="logo-ufv"
+        />
+        <div class="texto-logo">
+          <h1>Contacto</h1>
+          <p class="subtitulo-logo">
+            Formulario de ejemplo para la asignatura
+          </p>
+        </div>
       </div>
-    </div>
 
-    <nav class="main-nav">
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../degree.html">Grado</a></li>
-        <li><a href="../fii.html">FII</a></li>
-        <li><a href="../topic.html">Herramientas</a></li>
-        <li><a href="../about.html">Sobre mí</a></li>
-        <li><a href="../net.html">Red</a></li>
-        <li><a href="./contact.html" class="active">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+      <nav class="navegacion-principal">
+        <ul class="lista-navegacion">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="degree.html">Grado</a></li>
+          <li><a href="fii.html">FII</a></li>
+          <li><a href="topic.html">Herramientas</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="net.html">Red</a></li>
+          <li><a href="contact.html" class="enlace-activo">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main class="contact-main">
-    <section class="contact-intro">
-      <h2>Contacto</h2>
-      <p>
-        Este formulario es solo de ejemplo para el proyecto de 
-        <strong>Fundamentos de la Ingeniería Informática</strong>.
-        No envía ni guarda realmente la información, simplemente
-        muestra cómo podría ser un formulario de contacto.
-      </p>
-    </section>
+    <main class="contenido-pagina">
+      <section>
+        <h2>Contacto</h2>
+        <p>
+          Este formulario es solo de ejemplo para el proyecto de
+          <strong>Fundamentos de la Ingeniería Informática</strong>.
+          No envía ni guarda realmente la información, simplemente muestra cómo
+          podría ser un formulario de contacto.
+        </p>
+      </section>
 
-    <section class="contact-form-section">
-      <form class="contact-form" action="#" method="post">
-        <div class="form-group">
-          <label for="nombre">Nombre</label>
-          <input
-            type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="Escribe tu nombre"
-            required
-          />
-        </div>
+      <section>
+        <h3>Formulario de contacto</h3>
 
-        <div class="form-group">
-          <label for="email">Correo electrónico</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="tucorreo@ejemplo.com"
-            required
-          />
-        </div>
+        <form class="formulario-contacto" action="index.html" method="post">
+          <div class="grupo-formulario">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Escribe tu nombre"
+              required
+            />
+          </div>
 
-        <div class="form-group">
-          <label for="asunto">Asunto</label>
-          <input
-            type="text"
-            id="asunto"
-            name="asunto"
-            placeholder="Motivo del mensaje"
-          />
-        </div>
+          <div class="grupo-formulario">
+            <label for="email">Correo electrónico</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="tu_correo@ejemplo.com"
+              required
+            />
+          </div>
 
-        <div class="form-group">
-          <label for="mensaje">Mensaje</label>
-          <textarea
-            id="mensaje"
-            name="mensaje"
-            rows="5"
-            placeholder="Escribe aquí tu mensaje"
-            required
-          ></textarea>
-        </div>
+          <div class="grupo-formulario">
+            <label for="asunto">Asunto</label>
+            <input
+              type="text"
+              id="asunto"
+              name="asunto"
+              placeholder="Motivo del mensaje"
+            />
+          </div>
 
-        <button
-          type="submit"
-          class="btn-enviar"
-          formaction="../index.html">
-          Enviar
-        </button>
-      </form>
-    </section>
-  </main>
+          <div class="grupo-formulario">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="5"
+              placeholder="Escribe aquí tu mensaje"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="boton-enviar">
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
 
     <footer class="pie-sitio">
       <p>
         &copy; 2025 - Grado en Ingeniería Informática - Miguel Reyes Gómez
       </p>
     </footer>
-</body>
+  </body>
 </html>
