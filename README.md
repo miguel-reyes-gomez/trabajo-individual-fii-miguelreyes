@@ -18,3 +18,7 @@ Pequeña web para la asignatura **Fundamentos de la Ingeniería Informática**.
 ## Publicación
 
 El sitio se publica con GitHub Pages usando la carpeta `docs` de la rama `main`.  
+
+## URL pública
+
+https://miguel-reyes-gomez.github.io/trabajo-individual-fii-miguelreyes/
