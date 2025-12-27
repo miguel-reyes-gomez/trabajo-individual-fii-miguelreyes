@@ -67,7 +67,7 @@ body {
 .lista-navegacion a:hover {
   border-color: #e5e7eb;
   background-color: #0b1220;
-  color: #e5e7eb;
+  color: #e5e7eb !important;
 }
 
 .enlace-activo {
